@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573A0AA3C2B0EB767EB6397E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6056DA4799FCF0DD7D710652 /* libPods.a */; };
+		D44FD6C41B820A1400FE7948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D44FD6C31B820A1400FE7948 /* main.m */; };
+		D44FD6C71B820A1400FE7948 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D44FD6C61B820A1400FE7948 /* AppDelegate.m */; };
+		D44FD6CA1B820A1400FE7948 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44FD6C91B820A1400FE7948 /* ViewController.m */; };
+		D44FD6CD1B820A1400FE7948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44FD6CB1B820A1400FE7948 /* Main.storyboard */; };
+		D44FD6CF1B820A1400FE7948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44FD6CE1B820A1400FE7948 /* Assets.xcassets */; };
+		D44FD6D21B820A1400FE7948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44FD6D01B820A1400FE7948 /* LaunchScreen.storyboard */; };
+		D44FD6DD1B820A1400FE7948 /* BrewDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D44FD6DC1B820A1400FE7948 /* BrewDiaryTests.m */; };
+		D47EEB881B8260520014B77F /* Coffee.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EEB871B8260520014B77F /* Coffee.m */; };
+		D47EEB8E1B8262900014B77F /* BrewMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EEB8D1B8262900014B77F /* BrewMethod.m */; };
+		D47EEB911B8263820014B77F /* Brew.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EEB901B8263820014B77F /* Brew.m */; };
+		D47EEB931B826CC90014B77F /* CollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D47EEB921B826CC90014B77F /* CollectionView.xib */; };
+		D47EEB961B8271BF0014B77F /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EEB951B8271BF0014B77F /* CollectionViewCell.m */; };
+		D4F6DBA11B8F77FA002695BD /* Aeropress.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F6DB9C1B8F77F9002695BD /* Aeropress.png */; };
+		D4F6DBA21B8F77FA002695BD /* Chemex.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F6DB9D1B8F77F9002695BD /* Chemex.png */; };
+		D4F6DBA31B8F77FA002695BD /* French#.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F6DB9E1B8F77F9002695BD /* French#.png */; };
+		D4F6DBA41B8F77FA002695BD /* Pour_Over.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F6DB9F1B8F77F9002695BD /* Pour_Over.png */; };
+		D4F6DBA51B8F77FA002695BD /* siphon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F6DBA01B8F77F9002695BD /* siphon.png */; };
+		D4F972751B8F7D5B00BE88EC /* CoffeeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F972721B8F7D5B00BE88EC /* CoffeeAnimation.m */; };
+		D4F972761B8F7D5B00BE88EC /* QCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F972741B8F7D5B00BE88EC /* QCMethod.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D44FD6D91B820A1400FE7948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D44FD6B71B820A1400FE7948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44FD6BE1B820A1400FE7948;
+			remoteInfo = BrewDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6056DA4799FCF0DD7D710652 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA87CA5638F6B8D470FC348 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D44FD6BF1B820A1400FE7948 /* BrewDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44FD6C31B820A1400FE7948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D44FD6C51B820A1400FE7948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D44FD6C61B820A1400FE7948 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D44FD6C81B820A1400FE7948 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D44FD6C91B820A1400FE7948 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D44FD6CC1B820A1400FE7948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D44FD6CE1B820A1400FE7948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D44FD6D11B820A1400FE7948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D44FD6D31B820A1400FE7948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44FD6D81B820A1400FE7948 /* BrewDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44FD6DC1B820A1400FE7948 /* BrewDiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewDiaryTests.m; sourceTree = "<group>"; };
+		D44FD6DE1B820A1400FE7948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47EEB861B8260520014B77F /* Coffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coffee.h; sourceTree = "<group>"; };
+		D47EEB871B8260520014B77F /* Coffee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coffee.m; sourceTree = "<group>"; };
+		D47EEB8C1B8262900014B77F /* BrewMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrewMethod.h; path = ../BrewMethod.h; sourceTree = "<group>"; };
+		D47EEB8D1B8262900014B77F /* BrewMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrewMethod.m; path = ../BrewMethod.m; sourceTree = "<group>"; };
+		D47EEB8F1B8263820014B77F /* Brew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brew.h; sourceTree = "<group>"; };
+		D47EEB901B8263820014B77F /* Brew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brew.m; sourceTree = "<group>"; };
+		D47EEB921B826CC90014B77F /* CollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionView.xib; sourceTree = "<group>"; };
+		D47EEB941B8271BF0014B77F /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		D47EEB951B8271BF0014B77F /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		D4F6DB9C1B8F77F9002695BD /* Aeropress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aeropress.png; sourceTree = "<group>"; };
+		D4F6DB9D1B8F77F9002695BD /* Chemex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chemex.png; sourceTree = "<group>"; };
+		D4F6DB9E1B8F77F9002695BD /* French#.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "French#.png"; sourceTree = "<group>"; };
+		D4F6DB9F1B8F77F9002695BD /* Pour_Over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pour_Over.png; sourceTree = "<group>"; };
+		D4F6DBA01B8F77F9002695BD /* siphon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siphon.png; sourceTree = "<group>"; };
+		D4F972711B8F7D5B00BE88EC /* CoffeeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeAnimation.h; sourceTree = "<group>"; };
+		D4F972721B8F7D5B00BE88EC /* CoffeeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeAnimation.m; sourceTree = "<group>"; };
+		D4F972731B8F7D5B00BE88EC /* QCMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCMethod.h; sourceTree = "<group>"; };
+		D4F972741B8F7D5B00BE88EC /* QCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCMethod.m; sourceTree = "<group>"; };
+		ECD11D1818899075BB31D7B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D44FD6BC1B820A1400FE7948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573A0AA3C2B0EB767EB6397E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FD6D51B820A1400FE7948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D52E33955854FC1DF3BB56A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6056DA4799FCF0DD7D710652 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		984337C82B244B7275B729CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AA87CA5638F6B8D470FC348 /* Pods.debug.xcconfig */,
+				ECD11D1818899075BB31D7B1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D44FD6B61B820A1300FE7948 = {
+			isa = PBXGroup;
+			children = (
+				D44FD6C11B820A1400FE7948 /* BrewDiary */,
+				D44FD6DB1B820A1400FE7948 /* BrewDiaryTests */,
+				D44FD6C01B820A1400FE7948 /* Products */,
+				984337C82B244B7275B729CF /* Pods */,
+				4D52E33955854FC1DF3BB56A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D44FD6C01B820A1400FE7948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D44FD6BF1B820A1400FE7948 /* BrewDiary.app */,
+				D44FD6D81B820A1400FE7948 /* BrewDiaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D44FD6C11B820A1400FE7948 /* BrewDiary */ = {
+			isa = PBXGroup;
+			children = (
+				D4F6DB7D1B8CBD5B002695BD /* Animation */,
+				D44FD6C51B820A1400FE7948 /* AppDelegate.h */,
+				D44FD6C61B820A1400FE7948 /* AppDelegate.m */,
+				D44FD6C81B820A1400FE7948 /* ViewController.h */,
+				D44FD6C91B820A1400FE7948 /* ViewController.m */,
+				D47EEB941B8271BF0014B77F /* CollectionViewCell.h */,
+				D47EEB951B8271BF0014B77F /* CollectionViewCell.m */,
+				D47EEB921B826CC90014B77F /* CollectionView.xib */,
+				D47EEB8C1B8262900014B77F /* BrewMethod.h */,
+				D47EEB8D1B8262900014B77F /* BrewMethod.m */,
+				D47EEB8F1B8263820014B77F /* Brew.h */,
+				D47EEB901B8263820014B77F /* Brew.m */,
+				D47EEB861B8260520014B77F /* Coffee.h */,
+				D47EEB871B8260520014B77F /* Coffee.m */,
+				D44FD6CB1B820A1400FE7948 /* Main.storyboard */,
+				D44FD6CE1B820A1400FE7948 /* Assets.xcassets */,
+				D44FD6D01B820A1400FE7948 /* LaunchScreen.storyboard */,
+				D44FD6D31B820A1400FE7948 /* Info.plist */,
+				D44FD6C21B820A1400FE7948 /* Supporting Files */,
+			);
+			path = BrewDiary;
+			sourceTree = "<group>";
+		};
+		D44FD6C21B820A1400FE7948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4F6DB9C1B8F77F9002695BD /* Aeropress.png */,
+				D4F6DB9D1B8F77F9002695BD /* Chemex.png */,
+				D4F6DB9E1B8F77F9002695BD /* French#.png */,
+				D4F6DB9F1B8F77F9002695BD /* Pour_Over.png */,
+				D4F6DBA01B8F77F9002695BD /* siphon.png */,
+				D44FD6C31B820A1400FE7948 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D44FD6DB1B820A1400FE7948 /* BrewDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				D44FD6DC1B820A1400FE7948 /* BrewDiaryTests.m */,
+				D44FD6DE1B820A1400FE7948 /* Info.plist */,
+			);
+			path = BrewDiaryTests;
+			sourceTree = "<group>";
+		};
+		D4F6DB7D1B8CBD5B002695BD /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D4F972711B8F7D5B00BE88EC /* CoffeeAnimation.h */,
+				D4F972721B8F7D5B00BE88EC /* CoffeeAnimation.m */,
+				D4F972731B8F7D5B00BE88EC /* QCMethod.h */,
+				D4F972741B8F7D5B00BE88EC /* QCMethod.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D44FD6BE1B820A1400FE7948 /* BrewDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44FD6E11B820A1400FE7948 /* Build configuration list for PBXNativeTarget "BrewDiary" */;
+			buildPhases = (
+				03E294D086D22217546F2DC9 /* Check Pods Manifest.lock */,
+				D44FD6BB1B820A1400FE7948 /* Sources */,
+				D44FD6BC1B820A1400FE7948 /* Frameworks */,
+				D44FD6BD1B820A1400FE7948 /* Resources */,
+				37A2123A9B35F1B1B72D7CCB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrewDiary;
+			productName = BrewDiary;
+			productReference = D44FD6BF1B820A1400FE7948 /* BrewDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D44FD6D71B820A1400FE7948 /* BrewDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44FD6E41B820A1400FE7948 /* Build configuration list for PBXNativeTarget "BrewDiaryTests" */;
+			buildPhases = (
+				D44FD6D41B820A1400FE7948 /* Sources */,
+				D44FD6D51B820A1400FE7948 /* Frameworks */,
+				D44FD6D61B820A1400FE7948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44FD6DA1B820A1400FE7948 /* PBXTargetDependency */,
+			);
+			name = BrewDiaryTests;
+			productName = BrewDiaryTests;
+			productReference = D44FD6D81B820A1400FE7948 /* BrewDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D44FD6B71B820A1400FE7948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rob McMorran";
+				TargetAttributes = {
+					D44FD6BE1B820A1400FE7948 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D44FD6D71B820A1400FE7948 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D44FD6BE1B820A1400FE7948;
+					};
+				};
+			};
+			buildConfigurationList = D44FD6BA1B820A1400FE7948 /* Build configuration list for PBXProject "BrewDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D44FD6B61B820A1300FE7948;
+			productRefGroup = D44FD6C01B820A1400FE7948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D44FD6BE1B820A1400FE7948 /* BrewDiary */,
+				D44FD6D71B820A1400FE7948 /* BrewDiaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D44FD6BD1B820A1400FE7948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F6DBA51B8F77FA002695BD /* siphon.png in Resources */,
+				D4F6DBA31B8F77FA002695BD /* French#.png in Resources */,
+				D44FD6D21B820A1400FE7948 /* LaunchScreen.storyboard in Resources */,
+				D44FD6CF1B820A1400FE7948 /* Assets.xcassets in Resources */,
+				D4F6DBA11B8F77FA002695BD /* Aeropress.png in Resources */,
+				D47EEB931B826CC90014B77F /* CollectionView.xib in Resources */,
+				D44FD6CD1B820A1400FE7948 /* Main.storyboard in Resources */,
+				D4F6DBA21B8F77FA002695BD /* Chemex.png in Resources */,
+				D4F6DBA41B8F77FA002695BD /* Pour_Over.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FD6D61B820A1400FE7948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E294D086D22217546F2DC9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37A2123A9B35F1B1B72D7CCB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D44FD6BB1B820A1400FE7948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44FD6CA1B820A1400FE7948 /* ViewController.m in Sources */,
+				D44FD6C71B820A1400FE7948 /* AppDelegate.m in Sources */,
+				D47EEB8E1B8262900014B77F /* BrewMethod.m in Sources */,
+				D47EEB911B8263820014B77F /* Brew.m in Sources */,
+				D4F972751B8F7D5B00BE88EC /* CoffeeAnimation.m in Sources */,
+				D44FD6C41B820A1400FE7948 /* main.m in Sources */,
+				D47EEB961B8271BF0014B77F /* CollectionViewCell.m in Sources */,
+				D47EEB881B8260520014B77F /* Coffee.m in Sources */,
+				D4F972761B8F7D5B00BE88EC /* QCMethod.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FD6D41B820A1400FE7948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44FD6DD1B820A1400FE7948 /* BrewDiaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D44FD6DA1B820A1400FE7948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44FD6BE1B820A1400FE7948 /* BrewDiary */;
+			targetProxy = D44FD6D91B820A1400FE7948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D44FD6CB1B820A1400FE7948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44FD6CC1B820A1400FE7948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D44FD6D01B820A1400FE7948 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44FD6D11B820A1400FE7948 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D44FD6DF1B820A1400FE7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D44FD6E01B820A1400FE7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D44FD6E21B820A1400FE7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA87CA5638F6B8D470FC348 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BrewDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RobM.BrewDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D44FD6E31B820A1400FE7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD11D1818899075BB31D7B1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BrewDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RobM.BrewDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D44FD6E51B820A1400FE7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrewDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RobM.BrewDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrewDiary.app/BrewDiary";
+			};
+			name = Debug;
+		};
+		D44FD6E61B820A1400FE7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrewDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RobM.BrewDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrewDiary.app/BrewDiary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D44FD6BA1B820A1400FE7948 /* Build configuration list for PBXProject "BrewDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44FD6DF1B820A1400FE7948 /* Debug */,
+				D44FD6E01B820A1400FE7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44FD6E11B820A1400FE7948 /* Build configuration list for PBXNativeTarget "BrewDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44FD6E21B820A1400FE7948 /* Debug */,
+				D44FD6E31B820A1400FE7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44FD6E41B820A1400FE7948 /* Build configuration list for PBXNativeTarget "BrewDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44FD6E51B820A1400FE7948 /* Debug */,
+				D44FD6E61B820A1400FE7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D44FD6B71B820A1400FE7948 /* Project object */;
+}
